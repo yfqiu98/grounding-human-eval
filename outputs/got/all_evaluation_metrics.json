@@ -1,0 +1,1049 @@
+{
+    "magicbrush": {
+        "L1": 0.06256286066025496,
+        "CLIP_I": 0.930060293674469,
+        "CLIP_T": 0.28582146793603896,
+        "DINO": 0.8814166229963303,
+        "#sample": 50,
+        "GPT4o": 5.96,
+        "GPT4o_all_predictions": [
+            {
+                "final_score": 10,
+                "response": "{\"score\": [10, 10], \"reasoning\": \"The cat is successfully placed on the seat as instructed, and the rest of the scene remains unchanged, indicating minimal and effective editing.\"}"
+            },
+            {
+                "final_score": 7,
+                "response": "```python\n{\"score\": [8, 7], \"reasoning\": \"The edited image successfully adds a stream, visible in the foreground. However, its integration into the scene is somewhat artificial, impacting the natural look. The field and horses remain intact, with the stream being the primary change, hence minimal overediting.\"}\n```"
+            },
+            {
+                "final_score": 5,
+                "response": "{\"score\": [5, 8], \"reasoning\": \"A giraffe-like figure is added in the field, but it is too small and has unrealistic coloring. The scene remains mostly unchanged.\"}"
+            },
+            {
+                "final_score": 2,
+                "response": "```python\n{\"score\": [8, 2], \"reasoning\": \"The edited image includes a bright explosion resembling a supernova in the sky, effectively meeting the editing instruction. However, the rest of the scene is significantly altered, leading to overediting.\"}\n```"
+            },
+            {
+                "final_score": 9,
+                "response": "{\"score\": [10, 9], \"reasoning\": \"The hydrant is successfully edited to be all white, achieving the instruction perfectly. The edited image maintains the integrity of the original composition with minimal changes besides the coloration, showing it hasn't been overedited.\"}"
+            },
+            {
+                "final_score": 2,
+                "response": "```python\n{\"score\": [2, 2], \"reasoning\": \"The hydrant is placed on asphalt, but the style and appearance of the hydrant have changed significantly, making it difficult to recognize the original. The scene differs noticeably from the original image.\"}\n```"
+            },
+            {
+                "final_score": 3,
+                "response": "{\"score\": [3, 8], \"reasoning\": \"The dog was added but incorrectly positioned on top of the hydrant, appearing unnatural. The rest of the scene remains unchanged, minimizing overediting.\"}"
+            },
+            {
+                "final_score": 0,
+                "response": "{\"score\": [0, 10], \"reasoning\": \"The seat is not put down in the edited image. The overall scene remains recognizable with minimal changes.\"}"
+            },
+            {
+                "final_score": 10,
+                "response": "{\"score\": [10, 10], \"reasoning\": \"The edited image successfully adds a frog in the toilet, following the instruction perfectly. The rest of the scene remains unchanged, indicating minimal and effective editing.\"}"
+            },
+            {
+                "final_score": 8,
+                "response": "{\"score\" : [9, 8], \"reasoning\" : \"The floor has been repaired with new material, effectively addressing the editing instruction. The rest of the scene remains largely unchanged, indicating minimal overediting.\"}"
+            },
+            {
+                "final_score": 0,
+                "response": "```python\n{\"score\": [0, 10], \"reasoning\": \"The instruction to let the laptop screen be blank was not followed. The editing does not affect the laptop screen, and the image remains largely unchanged with respect to the laptop, hence no overediting.\"}\n```"
+            },
+            {
+                "final_score": 9,
+                "response": "{\"score\": [10, 9], \"reasoning\": \"The chair in the edited image is successfully changed to red, effectively following the editing instruction. The rest of the scene remains largely unchanged, indicating minimal overediting.\"}"
+            },
+            {
+                "final_score": 10,
+                "response": "```python\n{\"score\": [10, 10], \"reasoning\": \"The desktop has been successfully turned black, matching the editing instruction perfectly with minimal impact on other elements.\"}\n```"
+            },
+            {
+                "final_score": 10,
+                "response": "{\"score\": [10, 10], \"reasoning\": \"The bright lime green curtains in the original image have been successfully changed to white curtains in the edited image with no other noticeable alterations, achieving the editing goal perfectly.\"}"
+            },
+            {
+                "final_score": 2,
+                "response": "{\"score\": [2, 9], \"reasoning\": \"The bed remains mostly unchanged, only the color appears slightly altered. The scene in the edited image largely follows the original layout with minimal changes.\"}"
+            },
+            {
+                "final_score": 9,
+                "response": "{\"score\": [9, 9], \"reasoning\": \"The table in the edited image appears to be wooden, successfully fulfilling the editing instruction. The overall scene remains largely unchanged, indicating minimal overediting and effective execution of the task.\"}"
+            },
+            {
+                "final_score": 9,
+                "response": "```python\n{\"score\": [10, 9], \"reasoning\": \"The editing successfully added a hat to the horse, perfectly following the instruction. The rest of the image remains unchanged, indicating minimal overediting.\"}\n```"
+            },
+            {
+                "final_score": 2,
+                "response": "{\"score\": [2, 7], \"reasoning\": \"Birds were added, but not in the sky as instructed. The rest of the image remains largely unchanged, with minimal overediting.\"}"
+            },
+            {
+                "final_score": 6,
+                "response": "```python\n{\"score\": [6, 6], \"reasoning\": \"The man is partially removed, but his arm and some clothing are still visible. The editing is noticeable and the image remains somewhat similar to the original but with visible changes.\"}\n```"
+            },
+            {
+                "final_score": 0,
+                "response": "{ \"score\": [0, 10], \"reasoning\": \"The edited image appears identical to the original, thus failing to execute the instruction to make the woman obese. However, due to the lack of changes, there is also no overediting.\" }"
+            },
+            {
+                "final_score": 10,
+                "response": "{\"score\": [10, 10], \"reasoning\": \"The helmet has been accurately added to the woman's head in the edited image. The rest of the scene remains unchanged, maintaining the original context and details.\"}"
+            },
+            {
+                "final_score": 9,
+                "response": "{\"score\": [10, 9], \"reasoning\": \"The editing successfully introduced a boy skiing, following the instruction perfectly. The second image maintains the original scene with minimal and effective addition, showing little overediting.\"}"
+            },
+            {
+                "final_score": 2,
+                "response": "{\"score\" : [2, 8], \"reasoning\" : \"The banana shape is added, but not in the candle holder. Instead, it's floating above it. The image remains mostly unchanged except for the addition of the banana.\"}"
+            },
+            {
+                "final_score": 3,
+                "response": "```python\n{\"score\": [3, 8], \"reasoning\": \"The edited image includes a baseball placed near the catcher, but it is not being caught by any player. Thus, the edit only partially fulfills the instruction. The overall scene remains largely unchanged, indicating minimal overediting.\"}\n```"
+            },
+            {
+                "final_score": 8,
+                "response": "{ \"score\": [9, 8], \"reasoning\": \"A mermaid has been successfully added to the picture on the wall, matching the editing instruction well. The integration is mostly seamless, with the mermaid fitting into the underwater theme without altering the overall composition significantly.\" }"
+            },
+            {
+                "final_score": 0,
+                "response": "{\"score\": [0, 0], \"reasoning\": \"The mermaid was replaced with an unrelated image of a person reading a book. This doesn't fulfill the instruction, and the scene is completely different.\"}"
+            },
+            {
+                "final_score": 9,
+                "response": "```python\n{\"score\": [9, 10], \"reasoning\": \"The edited image successfully adds a lobster on the bed as instructed. The rest of the image remains unchanged, indicating minimal editing.\"}\n```"
+            },
+            {
+                "final_score": 5,
+                "response": "{\"score\": [8, 5], \"reasoning\": \"The car in front of the bus has been mostly removed, successfully following the editing instruction. However, there are visible artifacts and distortions near the area where the car was, affecting the overall continuity of the scene. The edited image retains much of the original, but the car removal is not seamless.\"}"
+            },
+            {
+                "final_score": 8,
+                "response": "{ \"score\" : [8, 9], \"reasoning\" : \"A small cat has been successfully added on top of the bus, fulfilling the editing instruction well. The cat blends in with the environment, achieving the edit with minimal changes to the original image, maintaining overall integrity.\" }"
+            },
+            {
+                "final_score": 7,
+                "response": "{\"score\": [8, 7], \"reasoning\": \"The edited image successfully adds patties to the pan, following the instruction well but not perfectly. The changes are noticeable but maintain the overall context and composition of the scene, with some deviation from the original.\"}"
+            },
+            {
+                "final_score": 0,
+                "response": "{\"score\": [0, 10], \"reasoning\": \"The edited image does not show any change; the pancakes were already present. No edits are noticeable, indicating no overediting.\"}"
+            },
+            {
+                "final_score": 5,
+                "response": "```python\n{\"score\": [10, 5], \"reasoning\": \"The edited image successfully includes multiple bottles of wine, effectively exceeding the instruction for one bottle. This results in a score of 10 for the successful addition of wine. However, the scene is notably different, indicating a moderate level of overediting, resulting in a score of 5 for the degree of overediting.\"}\n```"
+            },
+            {
+                "final_score": 5,
+                "response": "{\"score\": [5, 8], \"reasoning\": \"The edited image shows a subtle change suggesting a lid, but it's not clearly defined. The original and edited images remain quite similar, showing minimal overediting.\"}"
+            },
+            {
+                "final_score": 9,
+                "response": "{\"score\": [10, 9], \"reasoning\": \"The teddy bear has been successfully made black, fulfilling the editing instruction. The rest of the image remains largely unchanged, maintaining the original scene effectively with minimal overediting.\"}"
+            },
+            {
+                "final_score": 2,
+                "response": "{\"score\": [2, 8], \"reasoning\": \"The edited image shows some attempt to change the dog's mouth area, but it does not look like licking is occurring. The scene remains mostly minimal with noticeable but limited changes to the dog's mouth.\"}"
+            },
+            {
+                "final_score": 9,
+                "response": "{ \"score\" : [10, 9], \"reasoning\" : \"The added dragonfly is appropriately placed on the dog's ear, fulfilling the editing instruction perfectly. The rest of the image remains unchanged, showing minimal overediting.\" }"
+            },
+            {
+                "final_score": 4,
+                "response": "{\"score\": [4, 7], \"reasoning\": \"The edited image attempts to replace the tennis racket with a shovel, but the result still resembles a modified racket rather than a clear shovel. The edits retain the shape of the original object and use of the shovel handle, making it somewhat recognizable but not an effective transformation.\"}"
+            },
+            {
+                "final_score": 7,
+                "response": "{\"score\": [8, 7], \"reasoning\": \"The bench has been transformed into a wooden seat resembling a pew. The wooden texture and style are effective, suggesting success in the edit. However, some elements around the seat are slightly over-edited, lacking precision.\"}"
+            },
+            {
+                "final_score": 7,
+                "response": "{\"score\": [8, 7], \"reasoning\": \"The edited image includes a bucket of dirt, successfully following the instruction, but some unnecessary texture changes on the ground indicate mild overediting.\"}"
+            },
+            {
+                "final_score": 8,
+                "response": "{\"score\": [8, 9], \"reasoning\": \"The blanket is visibly longer and hangs over the bed edge, achieving the editing goal effectively. There are minimal changes to the rest of the image, maintaining overall consistency.\"}"
+            },
+            {
+                "final_score": 8,
+                "response": "{\"score\": [10, 8], \"reasoning\": \"The helicopter is clearly added in the edited image fulfilling the instruction. The scene largely remains unchanged except for the addition of the helicopter, maintaining overall context.\"}"
+            },
+            {
+                "final_score": 7,
+                "response": "{\"score\": [10, 7], \"reasoning\": \"The remote has been successfully transformed into a VR headset, as per the instruction. The scene has undergone some alteration, but it remains recognizable with minimal overediting.\"}"
+            },
+            {
+                "final_score": 8,
+                "response": "{\"score\": [8, 9], \"reasoning\": \"The edited image includes a new element on the wall resembling a poster, effectively fulfilling the instruction. The poster blends well, with minimal changes to the rest of the image.\"}"
+            },
+            {
+                "final_score": 8,
+                "response": "{\"score\": [8, 9], \"reasoning\": \"The edited image includes a new object that resembles the shape and size of a credit card on the table. The addition is subtle and does not disrupt the original composition, indicating minimal overediting.\"}"
+            },
+            {
+                "final_score": 7,
+                "response": "{ \"score\": [9, 7], \"reasoning\": \"The car has been successfully transformed into a red sports car, meeting the editing instruction well. Some overediting is present, but the image retains the original context.\" }"
+            },
+            {
+                "final_score": 8,
+                "response": "{ \"score\" : [9, 8], \"reasoning\" : \"The banana has been successfully changed to a microphone, maintaining the scene's context and positioning. The edit is effective and minimal, with slight visible editing artifacts.\"}"
+            },
+            {
+                "final_score": 2,
+                "response": "{\"score\": [5, 2], \"reasoning\": \"The editing instruction was to make the baseball players hold swords. The edit partially succeeded by altering their appearance to be more like medieval warriors, although they still appear to be holding baseball bats, not swords. Significant changes to attire resulted in overediting, affecting resemblance to original.\"}"
+            },
+            {
+                "final_score": 8,
+                "response": "{ \"score\" : [8, 9], \"reasoning\" : \"The edited image successfully makes the catcher laugh, fulfilling the instruction effectively. The rest of the image remains unchanged, indicating minimal overediting with only the catcher's facial expression altered.\" }"
+            },
+            {
+                "final_score": 4,
+                "response": "{ \"score\" : [4, 9], \"reasoning\" : \"The edited image adds a clown hat to the catcher's head, partially following the instruction to let the catcher wear a clown costume. However, the rest of the costume is missing. The rest of the image remains virtually unchanged, leading to a high score for minimal overediting.\"}"
+            },
+            {
+                "final_score": 8,
+                "response": "```python\n{\"score\": [10, 8], \"reasoning\": \"The white couch has been successfully changed to a brown one, accurately following the editing instruction. The overall scene remains mostly intact with minimal changes beyond the couch color alteration.\"}\n```"
+            }
+        ],
+        "#gpt4o_valid": 50
+    },
+    "ag": {
+        "L1": 0.1740862962603569,
+        "CLIP_I": 0.8464487886428833,
+        "CLIP_T": 0.2801789462566376,
+        "DINO": 0.7851439195871354,
+        "#sample": 50,
+        "GPT4o": 1.6122448979591837,
+        "GPT4o_all_predictions": [
+            {
+                "final_score": 0,
+                "response": "```python\n{\"score\": [0, 0], \"reasoning\": \"The edited image does not depict the door closing and shows a completely different scene, contributing to both incorrect editing and overediting.\"}\n```"
+            },
+            {
+                "final_score": 0,
+                "response": "```python\n{\"score\": [0, 9], \"reasoning\": \"The edited image does not show the person picking up the glass; it remains on the table. The rest of the scene is minimally altered from the original.\"}\n```"
+            },
+            {
+                "final_score": 3,
+                "response": "```python\n{\"score\": [3, 3], \"reasoning\": \"The edited image shows an attempt to close the jacket, but the editing is poorly executed. The jacket looks distorted and does not appear natural. The amount of change from the original image is moderate, but it distracts from the effectiveness of the edit.\"}\n```"
+            },
+            {
+                "final_score": 0,
+                "response": "```python\n{\"score\": [0, 0], \"reasoning\": \"The person in the second image is not the same as in the first image. The original person was not made to stand up but replaced, showing no successful editing. The edited image is completely different, indicating overediting.\"}\n```"
+            },
+            {
+                "final_score": 0,
+                "response": "{\"score\": [0, 10], \"reasoning\": \"The editing instruction to make her turn to the left was not executed. The edited image looks nearly identical to the original, indicating no noticeable changes in her position. Therefore, the editing success score is 0, and the degree of overediting score is 10 as the images are very similar.\"}"
+            },
+            {
+                "final_score": 3,
+                "response": "```python\n{\"score\": [5, 3], \"reasoning\": \"The edited image shows a person standing, which aligns with the instruction to make her stand up, but the appearance and posture have changed significantly, affecting recognizability. Therefore, it achieves some success but alters the original too much.\"}\n```"
+            },
+            {
+                "final_score": 2,
+                "response": "{\"score\": [3, 2], \"reasoning\": \"The edited image shows the person in a more upright position but not fully upright, and with unnatural posture. The lighting and setting changes significantly, indicating overediting.\"}"
+            },
+            {
+                "final_score": 2,
+                "response": "{ \"score\" : [2, 8], \"reasoning\" : \"The hands have been slightly adjusted but are not moved towards the face, thus not following the instruction effectively. The rest of the image remains largely unchanged, indicating minimal overediting.\" }"
+            },
+            {
+                "final_score": 0,
+                "response": "{\"score\": [0, 8], \"reasoning\": \"The bags are still in the person's hands and not on the floor, so the edit was not successful in executing the instruction. However, the scene remains visually similar to the original, thus minimal overediting occurred.\"}"
+            },
+            {
+                "final_score": 0,
+                "response": "```python\n{\"score\" : [0, 3], \"reasoning\" : \"The edited image does not successfully make the figure stand up, as the original bent posture remains visible. Additionally, there is an attempt to add a standing posture, but it's located improperly and does not replace the original figure effectively. The edit is minimal in terms of changes made, but not successful in achieving the desired effect.\"}\n```"
+            },
+            {
+                "final_score": 8,
+                "response": "```python\n{\"score\": [9, 8], \"reasoning\": \"The door appears to be open in the edited version. Changes are visible but minimal, maintaining the original scene's context.\"}\n```"
+            },
+            {
+                "final_score": 0,
+                "response": "{\"score\": [0, 10], \"reasoning\": \"The woman is not leaning forward towards the stick in the edited image. No change in posture is evident. However, there is no overediting present; the scene remains consistent.\"}"
+            },
+            {
+                "final_score": 1,
+                "response": "{\"score\": [1, 5], \"reasoning\": \"The edited image has a pasted face looking at the camera, but it doesn't match the original person, indicating an unsuccessful edit. The scene was minimally changed otherwise.\"}"
+            },
+            {
+                "final_score": 0,
+                "response": "{\"score\": [0, 7], \"reasoning\": \"The editing does not show hands arranging food on the plate, as instructed. Overediting score is higher since the changes are minor and localized.\"}"
+            },
+            {
+                "final_score": 0,
+                "response": "```python\n{\"score\": [0, 10], \"reasoning\": \"The hands are not moved towards the cup in the edited image. The degree of overediting is minimal as the images remain very similar.\"}\n```"
+            },
+            {
+                "final_score": 5,
+                "response": "{\"score\": [6, 5], \"reasoning\": \"The person has been edited to stand up, but the proportions and posture are not natural. The overall scene and background remain mostly unchanged, indicating moderate overediting.\"}"
+            },
+            {
+                "final_score": 0,
+                "response": "```python\n{\"score\": [0, 10], \"reasoning\": \"The drawer is still open in the edited image, indicating the editing instruction to fully close it was not executed. The images are otherwise identical, showing no overediting.\"}\n```"
+            },
+            {
+                "final_score": 0,
+                "response": "```python\n{\"score\": [0, 9], \"reasoning\": \"The cloth was not moved up towards his face; instead, it was replaced with another item. The image remains similar overall, indicating minimal overediting.\"}\n```"
+            },
+            {
+                "final_score": 0,
+                "response": "```python\n{\"score\": [0, 0], \"reasoning\": \"The edited image did not make the person lean back further in their chair. Instead, another person has been added to the scene, which is unrelated to the instruction. The original person is barely visible, indicating no successful editing according to the instruction.\"}\n```"
+            },
+            {
+                "final_score": 0,
+                "response": "{\"score\": [0, 10], \"reasoning\": \"The editing instruction to lower both arms has not been executed, as both arms remain raised. However, the overall scene remains unchanged.\"}"
+            },
+            {
+                "final_score": 3,
+                "response": "```python\n{\"score\": [5, 3], \"reasoning\": \"The head has been turned slightly towards the left, but the facial features and position look altered and do not naturally integrate with the body, showing some overediting and inconsistency.\"}\n```"
+            },
+            {
+                "final_score": 0,
+                "response": "{ \"score\" : [0, 9], \"reasoning\" : \"The door remains fully open in the edited image, failing to meet the instruction to close it halfway. Minimal changes in the second image result in high overediting score.\"}"
+            },
+            {
+                "final_score": 0,
+                "response": "{\"score\": [0, 9], \"reasoning\": \"The laptop is still on her lap, hence the instruction to put it down was not followed at all, resulting in a score of 0 for editing success. The rest of the scene remains minimally changed, yielding a high score for minimal overediting.\"}"
+            },
+            {
+                "final_score": 0,
+                "response": "```python\n{\"score\": [0, 3], \"reasoning\": \"The person is still near the table, not walking away. Background changes indicate some editing, but the person is unchanged.\"}\n```"
+            },
+            {
+                "final_score": 3,
+                "response": "{\"score\": [3, 9], \"reasoning\": \"The edited image attempts to make the person face towards the camera but fails to achieve a natural result. The body remains in the same position, and the editing appears unnatural. Overediting is minimal as the majority of the scene remains unchanged.\"}"
+            },
+            {
+                "final_score": 7,
+                "response": "{\"score\": [7, 8], \"reasoning\": \"The edited image successfully shows the person typing on the laptop with added hands in a typing position, addressing the instruction. However, the hands look slightly artificial. The rest of the image remains mostly unchanged, maintaining the background and other elements effectively.\"}"
+            },
+            {
+                "final_score": 2,
+                "response": "{\"score\": [2, 3], \"reasoning\": \"The edited image shows the person stepping forward slightly, but the door remains open. The person also looks noticeably edited, indicating significant manipulation. The editing is somewhat noticeable and alters the original scene considerably.\"}"
+            },
+            {
+                "final_score": 2,
+                "response": "{ \"score\" : [2, 9], \"reasoning\" : \"The edited image shows only a slight head rotation, not a full turn forward. The orange cup remains on the surface, meeting part of the instruction. The overall scene is minimally changed.\" }"
+            },
+            {
+                "final_score": 0,
+                "response": "{ \"score\": [0, 10], \"reasoning\": \"The plate is still in his hand, not on the table, indicating no successful editing. The edited image remains visually similar to the original, showing no overediting.\"}"
+            },
+            {
+                "final_score": 0,
+                "response": "{\"score\": [0, 0], \"reasoning\": \"The original person remains in the same position in the edited image, not closer to the right. A new person was added instead, leading to no effective movement of the original subject and a completely changed scene.\"}"
+            },
+            {
+                "final_score": 3,
+                "response": "```python\n{\"score\": [3, 5], \"reasoning\": \"The person appears to have moved slightly down the stairs, but the image is visually inconsistent with blurred areas, indicating poor execution of the walking effect. The basic structure of the original image is retained, but the quality and effectiveness of the edit are low.\"}\n```"
+            },
+            {
+                "final_score": 8,
+                "response": "{ \"score\": [8, 9], \"reasoning\": \"The edited image shows the person holding a book, successfully achieving the editing instruction. There is a minimal change in the overall scene, indicating effective and minimal editing.\" }"
+            },
+            {
+                "final_score": 0,
+                "response": "```python\n{\"score\": [0, 10], \"reasoning\": \"The edited image does not show any visible change where the man is taking a bite from the snack. The images appear almost identical, reflecting no successful implementation of the editing instruction.\"}\n```"
+            },
+            {
+                "final_score": 0,
+                "response": "{ \"score\" : [0, 9], \"reasoning\" : \"The hands with the bread remain at the same level near her mouth in the edited image, not moved down towards the table as instructed. The degree of overediting is minimal, with only minor changes evident.\" }"
+            },
+            {
+                "final_score": 0,
+                "response": "{ \"score\" : [0, 10], \"reasoning\" : \"The red shovel is still present in the edited image, and a green shovel appears overedited. The editing instruction to put down the red shovel was not executed at all, but the overall scene remains similar despite the new additions.\" }"
+            },
+            {
+                "final_score": 0,
+                "response": "```python\n{\"score\": [0, 10], \"reasoning\": \"The laundry machine door remains open in the edited image, so the instruction to close the door was not followed. However, the rest of the image remains the same, maintaining a high degree of similarity with minimal overediting.\"}\n```"
+            },
+            {
+                "final_score": 2,
+                "response": "```python\n{\"score\": [5, 2], \"reasoning\": \"The man is now partially standing, but the style and context have changed significantly, indicating overediting.\"}\n```"
+            },
+            {
+                "final_score": 0,
+                "response": "{ \"score\" : [0, 0], \"reasoning\" : \"The edited image does not show the man turned around; he's still facing the same direction. The environment also appears entirely different, indicating a failure in making an effective edit based on the instruction.\" }"
+            },
+            {
+                "final_score": 0,
+                "response": "```python\n{\"score\": [0, 10], \"reasoning\": \"The book is not placed on the sofa as instructed; it remains in the man's hand. The images are otherwise identical except for the book's appearance.\"}\n```"
+            },
+            {
+                "final_score": 3,
+                "response": "{\u201cscore\u201d : [3, 8], \u201creasoning\u201d : \u201cThe edited image shows the person\u2019s left leg in an unnatural position that seems mostly unaltered except for an added bent foot, failing to convincingly lift the leg. However, the rest of the scene remains consistent with the original, indicating minimal overediting.\u201d}"
+            },
+            {
+                "final_score": 0,
+                "response": "{ \"score\": [0, 10], \"reasoning\": \"The edited image does not show the person's arms spread wide to both sides. The position looks the same as in the original. However, the second image maintains the same overall appearance as the first, so it scores high in minimal overediting.\" }"
+            },
+            {
+                "final_score": 0,
+                "response": "{\"score\": [0, 0], \"reasoning\": \"The individual is not present in a distinguishable form in the edited image, failing to execute the instruction. The scene is overedited, losing all recognizability to the original.\"}"
+            },
+            {
+                "final_score": 0,
+                "response": "```python\n{\"score\": [0, 10], \"reasoning\": \"The door in the edited image is not opened fully as per the instruction. Both images look almost identical in terms of door position.\"}\n```"
+            },
+            {
+                "final_score": 8,
+                "response": "```python\n{\"score\": [8, 9], \"reasoning\": \"The door in the edited image appears slightly ajar, indicating some degree of success in following the instruction to open it. The scene remains highly recognizable, indicating minimal overediting.\"}\n```"
+            },
+            {
+                "final_score": 2,
+                "response": "```python\n{\"score\": [5, 2], \"reasoning\": \"The person in the edited image is standing up, but the appearance has significantly changed, affecting the resemblance to the original. The surroundings are also altered, leading to overediting.\"}\n```"
+            },
+            {
+                "final_score": 2,
+                "response": "{\"score\": [2, 3], \"reasoning\": \"The black piece of clothing is not placed on the floor as instructed. It remains in the same position in the person's hands. There is some visual artifact on the floor, possibly intended for the clothing, but it is not executed effectively. The original image's context is largely preserved.\"}"
+            },
+            {
+                "final_score": 6,
+                "response": "```python\n{\"score\": [8, 6], \"reasoning\": \"The editing instruction to make her sit down fully cross-legged reading the book was executed successfully, as she is now in a cross-legged position with a book. However, the blending of the edited figure with the background could be more seamless. The scene is still recognizable, with some noticeable changes in the posture and activity of the person.\"}\n```"
+            },
+            {
+                "final_score": 4,
+                "response": "{\"score\": [4, 4], \"reasoning\": \"The curtains appear partially closed, but the execution looks unnatural and lacks realism. Overediting is evident due to the inconsistency in the curtain texture and integration into the scene, but parts of the original image remain recognizable.\"}"
+            },
+            {
+                "final_score": 0,
+                "response": "```python\n{\"score\": [0, 9], \"reasoning\": \"The edited image does not show the person standing upright and looking at their hands. The pose remains largely unchanged, indicating minimal to no editing.\"}\n```"
+            }
+        ],
+        "#gpt4o_valid": 49
+    },
+    "something": {
+        "L1": 0.18365754699334502,
+        "CLIP_I": 0.8066582903265953,
+        "CLIP_T": 0.26916652110715705,
+        "DINO": 0.6359678593774637,
+        "#sample": 48,
+        "GPT4o": 2.617021276595745,
+        "GPT4o_all_predictions": [
+            {
+                "final_score": 0,
+                "response": "```python\n{\"score\": [0, 9], \"reasoning\": \"The edited image does not show the remote falling down. However, minimal changes were made, keeping it almost identical to the original image.\"}\n```"
+            },
+            {
+                "final_score": 4,
+                "response": "{\"score\": [4, 8], \"reasoning\": \"The edited image shows the waste basket partially opened which indicates some change following the instruction but not entirely open. The recognition of the original scene remains largely intact, hence a minimal perceived overediting.\"}"
+            },
+            {
+                "final_score": 0,
+                "response": "{\"score\": [0, 10], \"reasoning\": \"The cloth does not appear to be unfolded in the edited image as instructed. The image retains its original form, indicating no successful editing. However, the minimal alteration suggests no significant overediting has occurred.\"}"
+            },
+            {
+                "final_score": 0,
+                "response": "{\"score\": [0, 9], \"reasoning\": \"The peg is not placed next to the wallet; it is placed on top of it, failing to follow the instruction. Minimal changes were made otherwise, maintaining image consistency.\"}"
+            },
+            {
+                "final_score": 0,
+                "response": "{\"score\" : [0, 9], \"reasoning\" : \"The hand position remains the same between the images, indicating no successful editing per the instruction. The images are otherwise nearly identical, suggesting minimal additional alterations.\"}"
+            },
+            {
+                "final_score": 5,
+                "response": "{ \"score\" : [7, 5], \"reasoning\" : \"The medicine bottle has been moved closer to the edge, but it appears smaller and differently colored. The overediting score reflects that noticeable changes have been made to the bottle, impacting its consistency with the original.\" }"
+            },
+            {
+                "final_score": 0,
+                "response": "{ \"score\" : [0, 10], \"reasoning\" : \"No additional orange was added; the images are identical apart from slight cropping.\" }"
+            },
+            {
+                "final_score": 0,
+                "response": "{\"score\": [0, 0], \"reasoning\": \"The edited image is entirely different from the original, with a completely new surface design and angle. The instruction to lift the surface up on the left side is not visible as the original surface is not present. Total overediting occurred.\"}"
+            },
+            {
+                "final_score": 0,
+                "response": "{\"score\": [0, 10], \"reasoning\": \"The shampoo bottle in the edited image is still standing upright and has not fallen to land horizontally, failing the editing instruction. The edits made do not change the original scene significantly, maintaining most aspects of the original image.\"}"
+            },
+            {
+                "final_score": 0,
+                "response": "{\"score\": [0, 10], \"reasoning\": \"The bottle is not flipped upside down in the edited image. The scene remains unchanged, indicating no overediting.\"}"
+            },
+            {
+                "final_score": 10,
+                "response": "{ \"score\" : [10, 10], \"reasoning\" : \"The keys have been successfully added to the bowl, following the instruction perfectly. The overall scene remains consistent with the original, showing minimal and effective editing.\" }"
+            },
+            {
+                "final_score": 0,
+                "response": "{\"score\": [0, 8], \"reasoning\": \"The first image does not have a lid on the jar, and the second image shows a lid on a floating small jar, which is not on the original jar. Hence, the editing is unsuccessful. The background and other elements remain largely unchanged, reflecting minimal overediting.\"}"
+            },
+            {
+                "final_score": 6,
+                "response": "{\"score\": [10, 6], \"reasoning\": \"The phone has been successfully lifted in the edited image, fulfilling the instruction completely. However, the background is still visible, showing a moderate degree of cohesion with the original scene, though some overediting is evident as the angle and context have changed significantly.\"}"
+            },
+            {
+                "final_score": 8,
+                "response": "{ \"score\": [8, 9], \"reasoning\": \"The bottle is successfully flipped upside down in the second image, as evident by the change in the cap's position. The modification is clear and specific to the instruction. The overall appearance and context remain consistent between the two images, suggesting minimal overediting.\" }"
+            },
+            {
+                "final_score": 3,
+                "response": "{\"score\": [5, 3], \"reasoning\": \"The wallet is present but not placed correctly next to the remote. The editing adds an additional wallet unnecessarily, altering the scene significantly.\"}"
+            },
+            {
+                "final_score": 9,
+                "response": "{ \"score\" : [9, 9], \"reasoning\" : \"The edited image successfully shows the paper being torn, matching the instruction closely. The rest of the image remains practically unchanged, indicating minimal yet effective editing.\" }"
+            },
+            {
+                "final_score": 0,
+                "response": "```python\n{\"score\": [0, 9], \"reasoning\": \"The edited image does not show the paper torn into two pieces, failing to execute the instruction. The scene remains largely the same, indicating minimal overediting.\"}\n```"
+            },
+            {
+                "final_score": 9,
+                "response": "{\"score\": [9, 9], \"reasoning\": \"The cloth appears more twisted in the edited image, effectively achieving the editing instruction. The hands and general composition remain largely unchanged, indicating minimal overediting.\"}"
+            },
+            {
+                "final_score": 0,
+                "response": "```python\n{\"score\": [0, 10], \"reasoning\": \"The cutting board is not moved in front of the clock; the object added is different and does not follow the instruction. However, the rest of the image is minimally edited.\"}\n```"
+            },
+            {
+                "final_score": 2,
+                "response": "{\"score\": [2, 3], \"reasoning\": \"The glass is not on top of the pills, but rather moved to the other side. Overall lighting and texture are maintained, but the position change is minimal and incorrect.\"}"
+            },
+            {
+                "final_score": 0,
+                "response": "{\"score\" : [0, 2], \"reasoning\" : \"The book is not resting flat on the table as instructed, and the hand is still partially visible. Significant editing has occurred, affecting the clarity of the image.\"}"
+            },
+            {
+                "final_score": 0,
+                "response": "```python\n{\"score\": [0, 5], \"reasoning\": \"A comb is not visible in the second image. The box remains largely unchanged, though other objects are inserted.\"}\n```"
+            },
+            {
+                "final_score": 0,
+                "response": "```python\n{\"score\": [0, 10], \"reasoning\": \"The paper is not torn into two pieces as instructed. The edited image still shows the paper as one piece. There is no evidence of the paper being torn apart, although the image remains similar to the original.\"}\n```"
+            },
+            {
+                "final_score": 7,
+                "response": "{ \"score\": [8, 7], \"reasoning\": \"The paper appears to be closer to or partially inside the cup, aligning with the instruction to 'stuff the paper into the cup.' The scene retains most elements, although some areas of the image appear smoother and altered.\" }"
+            },
+            {
+                "final_score": 9,
+                "response": "{\"score\": [9, 9], \"reasoning\": \"The chair in the edited image is noticeably closer to the desk, effectively following the instruction. There is minimal alteration to the surrounding elements, maintaining the scene's integrity.\"}"
+            },
+            {
+                "final_score": 0,
+                "response": "{\"score\": [0, 0], \"reasoning\": \"The candles in the edited image differ significantly from the original, appearing lit and differently shaped. The objects in the instruction are not present in the original image, indicating complete overediting.\"}"
+            },
+            {
+                "final_score": 0,
+                "response": "{\"score\": [0, 0], \"reasoning\": \"The objects in the edited image are unrecognizable compared to the original nail clipper and sponge. Thus, the editing is unsuccessful, and overediting is present.\"}"
+            },
+            {
+                "final_score": 0,
+                "response": "{ \"score\" : [0, 10], \"reasoning\" : \"The bottle is not flipped upside down in the edited image; it remains in the same orientation as the original. The image has minimal changes otherwise.\" }"
+            },
+            {
+                "final_score": 0,
+                "response": "{\"score\": [0, 10], \"reasoning\": \"The paper is not torn into two pieces in the edited image, so the editing was not successful. The overall image remains quite similar to the original, indicating minimal overediting.\"}"
+            },
+            {
+                "final_score": 3,
+                "response": "{ \"score\" : [8, 3], \"reasoning\" : \"The edited image successfully shows the sign tipped over, effectively following the instruction. However, there is noticeable alteration in the colors and textures, indicating overediting.\"}"
+            },
+            {
+                "final_score": 0,
+                "response": "```python\n{\"score\": [0, 0], \"reasoning\": \"The entire scene has been removed, resulting in neither the cup nor the pen being present. Therefore, the objective of moving the cup away from the pen cannot be considered successfully executed, and overediting is extreme.\"}\n```"
+            },
+            {
+                "final_score": 8,
+                "response": "{\"score\": [8, 9], \"reasoning\": \"The battery is present next to the mug in the edited image, successfully executing the instruction. The image remains largely unchanged aside from the added battery, indicating minimal overediting.\"}"
+            },
+            {
+                "final_score": 0,
+                "response": "```python\n{\"score\": [0, 0], \"reasoning\": \"The edited image is entirely different and does not reflect the original paper or the tearing instruction.\"}\n```"
+            },
+            {
+                "final_score": 0,
+                "response": "```python\n{\"score\": [0, 10], \"reasoning\": \"The cup has not been flipped upside down in the edited image. The images appear nearly identical indicating no editing has been done.\"}\n```"
+            },
+            {
+                "final_score": 0,
+                "response": "```python\n{\"score\": [0, 0], \"reasoning\": \"The edited image does not follow the instruction to remove one matchbox and introduces significant alterations.\"}\n```"
+            },
+            {
+                "final_score": 0,
+                "response": "{\"score\": [0, 10], \"reasoning\": \"The marker is still upright; no change was made to make it horizontal. The edited image looks identical to the original, indicating no overediting.\"}"
+            },
+            {
+                "final_score": 5,
+                "response": "{\"score\": [6, 5], \"reasoning\": \"The paper is shown as torn apart, fulfilling the editing instruction to a moderate extent. However, the color and texture changes suggest noticeable overediting, but the original context is still somewhat recognizable.\"}"
+            },
+            {
+                "final_score": 6,
+                "response": "{\"score\": [9, 6], \"reasoning\": \"The black marker has been effectively removed from the scene. However, the editing left noticeable artifacts where it was removed, slightly impacting the image quality. The rest of the image remains mostly unchanged, indicating minimal overediting.\"}"
+            },
+            {
+                "final_score": 9,
+                "response": "```python\n{\"score\": [10, 9], \"reasoning\": \"The edited image successfully adds an egg into the bowl, fulfilling the editing instruction. The rest of the scene remains unchanged, showing minimal and effective editing.\"}\n```"
+            },
+            {
+                "final_score": 0,
+                "response": "{\"score\": [0, 5], \"reasoning\": \"The edited image does not follow the instruction to lift the purse with a hand. The background has been significantly altered, but the purse remains on the stool.\"}"
+            },
+            {
+                "final_score": 0,
+                "response": "{\"score\": [0, 7], \"reasoning\": \"The USB is not fully plugged in as instructed. The scenes are similar with minimal overediting, preserving the original context.\"}"
+            },
+            {
+                "final_score": 3,
+                "response": "```python\n{\"score\": [3, 6], \"reasoning\": \"The edited image shows a hand holding a book, but the book is not visibly open. The scene remains similar with minimal changes, indicating moderate overediting.\"}\n```"
+            },
+            {
+                "final_score": 3,
+                "response": "```python\n{\"score\": [5, 3], \"reasoning\": \"The bottle is clearly added to the table, but the card is not visible. The bottle is large and prominent, altering the scene significantly, hence moderate overediting.\"}\n```"
+            },
+            {
+                "final_score": 2,
+                "response": "```python\n{\"score\": [2, 8], \"reasoning\": \"The piece of paper appears to be added in the edited version, but the hands are not lifted to hold it. The edit is minimal but not successful in showing hands raised.\"}\n```"
+            },
+            {
+                "final_score": 7,
+                "response": "```python\n{\"score\": [8, 7], \"reasoning\": \"The edited image shows the cloth moved further to the left, successfully following the instruction. The overall scene remains similar to the original, with minimal extra modifications.\"}\n```"
+            },
+            {
+                "final_score": 5,
+                "response": "{ \"score\": [5, 8], \"reasoning\": \"The paper is torn at the bottom, but it's not completely separated into two pieces as instructed. The editing is minimal, maintaining the original context well.\"}"
+            },
+            {
+                "final_score": 0,
+                "response": "{\"score\": [0, 9], \"reasoning\": \"The edited image lacks a hand pushing the hat. However, the added hat remains minimal but distinct.\"}"
+            }
+        ],
+        "#gpt4o_valid": 47
+    },
+    "whatsup": {
+        "L1": 0.07799102805554867,
+        "CLIP_I": 0.923449854850769,
+        "CLIP_T": 0.3161663317680359,
+        "DINO": 0.8499821424484253,
+        "#sample": 50,
+        "GPT4o": 1.58,
+        "GPT4o_all_predictions": [
+            {
+                "final_score": 0,
+                "response": "{\"score\": [0, 10], \"reasoning\": \"The dragonfruit remains on top of the table, not moved underneath as per the instruction. The images are almost identical, indicating no overediting.\"}"
+            },
+            {
+                "final_score": 0,
+                "response": "{\"score\" : [0, 8], \"reasoning\" : \"The cup was not moved to the left of the remote; instead, a new translucent object was added. The rest of the scene remains mostly unchanged, indicating minimal overediting.\"}"
+            },
+            {
+                "final_score": 0,
+                "response": "{\"score\": [0, 10], \"reasoning\": \"The original book remains on the chair; a new book is added to the left, which was not required. No overediting other than adding.\"}"
+            },
+            {
+                "final_score": 0,
+                "response": "```python\n{\"score\": [0, 8], \"reasoning\": \"The helmet was not moved under the table as instructed. It remains partially visible on top of the table, indicating ineffective execution. Minimal change suggests overediting is low.\"}\n```"
+            },
+            {
+                "final_score": 0,
+                "response": "{\"score\": [0, 5], \"reasoning\": \"The pot in the original image was not moved to the right of the chair in the edited image. A new pot was added instead, which does not fulfill the instruction. Therefore, there is no editing success. The degree of overediting is moderate since a new element was added but the scene remains recognizable.\"}"
+            },
+            {
+                "final_score": 0,
+                "response": "```python\n{\"score\": [0, 10], \"reasoning\": \"The sunglasses are removed instead of being moved under the chair, resulting in no adherence to the instruction, but the image remains otherwise unchanged.\"}\n```"
+            },
+            {
+                "final_score": 8,
+                "response": "```python\n{\"score\" : [8, 8], \"reasoning\" : \"The bowl has been moved to the right of the headphones, as instructed. However, a duplicate bowl remains in the center suggesting an incomplete edit. The degree of overediting is minimal as the scene remains recognizable, with only the bowl being repositioned.\"}\n```"
+            },
+            {
+                "final_score": 9,
+                "response": "```python\n{\"score\": [10, 9], \"reasoning\": \"The remote has been moved to the right of the headphones as per the instruction. The original remote is still slightly visible, indicating minimal overediting.\"}\n```"
+            },
+            {
+                "final_score": 0,
+                "response": "{ \"score\": [0, 10], \"reasoning\": \"The remote has not been moved to the left of the tape in the edited image. The images appear almost identical, indicating no overediting.\" }"
+            },
+            {
+                "final_score": 0,
+                "response": "{\"score\": [0, 10], \"reasoning\": \"The bowl has not been moved onto the armchair as instructed; it remains on the floor. The degree of overediting is minimal, as the images are almost identical except for slight changes in the bowl\u2019s appearance.\"}"
+            },
+            {
+                "final_score": 0,
+                "response": "{\"score\": [0, 10], \"reasoning\": \"The book has not been moved behind the flower as instructed. The images remain largely identical, indicating no change.\"}"
+            },
+            {
+                "final_score": 0,
+                "response": "{\"score\": [0, 10], \"reasoning\": \"The book has not been moved under the table. Both images are identical in terms of the book's position, indicating no successful edit according to the instruction.\"}"
+            },
+            {
+                "final_score": 0,
+                "response": "```python\n{\"score\": [0, 9], \"reasoning\": \"The book is not moved behind the knife. The images are nearly identical, indicating minimal changes.\"}\n```"
+            },
+            {
+                "final_score": 6,
+                "response": "```python\n{\"score\" : [6, 6], \"reasoning\" : \"The kettle has been moved to the right of the chair, indicating partial success in editing. However, the original kettle is still on the chair, resulting in duplication rather than a complete move. The scene maintains recognizable elements, leading to moderate overediting.\"}\n```"
+            },
+            {
+                "final_score": 0,
+                "response": "{\u201cscore\u201d : [0, 3], \u201creasoning\u201d : \u201cThe plate was not moved to the left of the candle. The objects have been altered significantly, and the candle is not visible anymore, indicating overediting.\u201d}"
+            },
+            {
+                "final_score": 8,
+                "response": "{\"score\": [8, 8], \"reasoning\": \"The yarn was successfully moved to the right of the armchair, but a different yarn was added. The rest of the image remains largely unchanged.\"}"
+            },
+            {
+                "final_score": 0,
+                "response": "{\"score\": [0, 0], \"reasoning\": \"The remote control was not moved to the left of the candle. Instead, an additional object, resembling a different remote, was added on the left. The original remote was not moved and remains in its place. The scene appears significantly altered.\"}"
+            },
+            {
+                "final_score": 4,
+                "response": "```python\n{\"score\": [9, 4], \"reasoning\": \"The mug is successfully moved to the right of the headphones, fulfilling the editing instruction effectively. However, the original mug still remains on the left, which causes some degree of overediting.\"}\n```"
+            },
+            {
+                "final_score": 0,
+                "response": "```python\n{\"score\": [0, 10], \"reasoning\": \"The cap is not moved to the right of the candle. The images look almost identical except for the candle change.\"}\n```"
+            },
+            {
+                "final_score": 2,
+                "response": "{\"score\": [2, 8], \"reasoning\": \"The book was not moved successfully to the left of the headphones. The images are mostly similar with minimal alteration, indicating low editing success and minimal overediting.\"}"
+            },
+            {
+                "final_score": 0,
+                "response": "{ \"score\" : [0, 0], \"reasoning\" : \"The edited image does not show the can moved to the right of the knife as instructed. The scene appears overedited and the can is distorted, not fulfilling the editing instruction.\" }"
+            },
+            {
+                "final_score": 0,
+                "response": "```python\n{\"score\": [0, 5], \"reasoning\": \"The mug has not been moved to the right of the plate as instructed. Instead, a different mug was added. The original mug remains in place, indicating no successful execution of the editing instruction. The overediting score is moderate as the image contains both mugs, preserving some of the original scene.\"}\n```"
+            },
+            {
+                "final_score": 3,
+                "response": "{\"score\": [3, 5], \"reasoning\": \"The lemon was duplicated rather than moved, with one appearing on the right side of the table. The original lemon in the center was not removed, indicating partial execution of the instruction. Minimal changes to the table itself are visible.\"}"
+            },
+            {
+                "final_score": 0,
+                "response": "{\u201cscore\u201d : [0, 10], \u201creasoning\u201d : \u201cThe mug has not been moved to the left of the bowl; both objects remain in the same positions, indicating no editing success. The images look identical, reflecting no overediting.\u201d}"
+            },
+            {
+                "final_score": 5,
+                "response": "```python\n{\"score\" : [5, 5], \"reasoning\" : \"The book is now underneath the cap instead of to the right of it, partially fulfilling the instruction. The scene is altered, but the original objects are still recognizable.\"}\n```"
+            },
+            {
+                "final_score": 0,
+                "response": "```python\n{\"score\": [0, 10], \"reasoning\": \"The bowl was not moved behind the spoon. The second image looks similar to the first, indicating no successful editing occurred.\"}\n```"
+            },
+            {
+                "final_score": 0,
+                "response": "{\"score\": [0, 0], \"reasoning\": \"The can and tape are absent in the edited image, indicating a failure in executing the specific instruction and resulting in overediting.\"}"
+            },
+            {
+                "final_score": 0,
+                "response": "{\"score\": [0, 0], \"reasoning\": \"The knife is no longer present in the edited image, and the mug remains in the same position. Hence, the instruction was not followed, and the scene is completely different.\"}"
+            },
+            {
+                "final_score": 0,
+                "response": "{\"score\": [0, 10], \"reasoning\": \"The pillow in the edited image is still visible and not under the armchair, failing the editing instruction. However, the scene remains almost identical, indicating no overediting.\"}"
+            },
+            {
+                "final_score": 8,
+                "response": "```python\n{\"score\": [8, 9], \"reasoning\": \"The laptop has been moved from under the chair to on top of it, successfully following the instruction. The chair remains recognizable, indicating minimal overediting.\"}\n```"
+            },
+            {
+                "final_score": 0,
+                "response": "```python\n{\"score\": [0, 8], \"reasoning\": \"The bowl was not moved under the table as instructed. Its position remains outside, with a noticeable color change indicating overediting.\"}\n```"
+            },
+            {
+                "final_score": 7,
+                "response": "```python\n{\"score\": [7, 8], \"reasoning\": \"The plate has been moved closer to the phone but remains slightly below rather than directly to the left. The change is noticeable but still recognizable to the original setup.\"}\n```"
+            },
+            {
+                "final_score": 0,
+                "response": "{\"score\": [0, 10], \"reasoning\": \"The book is still on the right side of the cup, indicating the editing instruction was not followed at all. The edited image resembles the original, showing no overediting.\"}"
+            },
+            {
+                "final_score": 0,
+                "response": "```python\n{\"score\": [0, 5], \"reasoning\": \"The oven mitt is still visible next to the chair, not under it. Overediting occurred as the color and appearance of the mitt changed significantly.\"}\n```"
+            },
+            {
+                "final_score": 0,
+                "response": "{\"score\": [0, 5], \"reasoning\": \"The book was not moved; instead, additional books were placed on the right. Overediting occurred with the extra books while the original book and headphones remained unchanged.\"}"
+            },
+            {
+                "final_score": 0,
+                "response": "```python\n{\"score\": [0, 5], \"reasoning\": \"The can was not moved to the left of the knife; the knife was replaced with a different object. No overediting to the can, but the knife is gone, partially meeting the instruction by removing the wrong object.\"}\n```"
+            },
+            {
+                "final_score": 0,
+                "response": "```python\n{\"score\": [0, 10], \"reasoning\": \"The bowl did not move behind the spoon; both images are nearly identical, indicating no successful execution of the editing instruction.\"}\n```"
+            },
+            {
+                "final_score": 0,
+                "response": "```python\n{\"score\": [0, 5], \"reasoning\": \"The lamp in the edited image has not been moved to the right of the table as instructed; instead, a different lamp appears at the side. The original lamp's position remains unchanged, indicating a failure in the editing task. The edited image maintains the overall composition, hence a moderate overediting score.\"}\n```"
+            },
+            {
+                "final_score": 3,
+                "response": "```python\n{\"score\": [3, 5], \"reasoning\": \"The bowl is still present in its original position, and a new bowl appears partially on the left, suggesting an incomplete or ineffective edit. The scene otherwise remains the same, showing moderate overediting but not achieving the primary goal.\"}\n```"
+            },
+            {
+                "final_score": 0,
+                "response": "{\"score\": [0, 0], \"reasoning\": \"The original dog is not moved to the right of the table; a different scene with multiple dogs is presented instead. The editing does not align with the instruction and overediting changes the image completely.\"}"
+            },
+            {
+                "final_score": 0,
+                "response": "{\"score\": [0, 0], \"reasoning\": \"The mug was not moved; a new mug was added on the right side. There is no execution of the instruction to move the original mug.\"}"
+            },
+            {
+                "final_score": 0,
+                "response": "{\"score\": [0, 10], \"reasoning\": \"The plate has not been moved behind the bowl. The images appear identical, indicating no editing success. Overediting is 0 as no changes were made.\"}"
+            },
+            {
+                "final_score": 0,
+                "response": "```python\n{\"score\": [0, 10], \"reasoning\": \"The painting is still in the same position on the floor, not under the chair. The edited image is identical in terms of the painting's position, indicating no overediting.\"}\n```"
+            },
+            {
+                "final_score": 9,
+                "response": "{ \"score\" : [9, 9], \"reasoning\" : \"The scarf was successfully moved to the left of the armchair, fulfilling the editing instruction effectively. The rest of the scene remains largely unchanged, indicating minimal overediting.\" }"
+            },
+            {
+                "final_score": 0,
+                "response": "{\"score\": [0, 10], \"reasoning\": \"The dog is not moved under the table in the edited image. The edited image resembles the original with minimal changes.\"}"
+            },
+            {
+                "final_score": 0,
+                "response": "```python\n{\"score\": [0, 8], \"reasoning\": \"The book is not moved behind the tape as instructed. The degree of overediting is minimal, with only the book's position modified to some extent, but not according to the instruction.\"}\n```"
+            },
+            {
+                "final_score": 3,
+                "response": "{\"score\": [3, 8], \"reasoning\": \"The bowl is only partially moved to the left, not entirely to the left of the flower. Some elements near the bottom left might indicate an attempt to show partial movement. Overediting is minimal as the main elements remain recognizable.\"}"
+            },
+            {
+                "final_score": 4,
+                "response": "{\"score\": [4, 5], \"reasoning\": \"The remote has been moved to the right, but it is not clearly to the right of the scissors in a recognizable way. The new object resembles a distorted remote, indicating partial success. The background remains the same, showing moderate editing.\"}"
+            },
+            {
+                "final_score": 0,
+                "response": "```python\n{\"score\": [0, 10], \"reasoning\": \"The pot was not moved onto the chair; instead, a different object was added. The scene remains largely unchanged otherwise.\"}\n```"
+            },
+            {
+                "final_score": 0,
+                "response": "{\"score\": [0, 9], \"reasoning\": \"The can was not moved to the right of the spoon; it remains in the same position relative to the spoon. However, the minimal changes suggest little overediting.\"}"
+            }
+        ],
+        "#gpt4o_valid": 50
+    },
+    "kubric": {
+        "L1": 0.025903702303767203,
+        "CLIP_I": 0.895174263715744,
+        "CLIP_T": 0.28073573917150496,
+        "DINO": 0.8566120213270187,
+        "#sample": 50,
+        "GPT4o": 3.92,
+        "GPT4o_all_predictions": [
+            {
+                "final_score": 0,
+                "response": "```python\n{\"score\": [0, 10], \"reasoning\": \"The pencil case has not been moved to the left at all, so the editing instruction was not followed. The image appears identical to the original, indicating no overediting occurred.\"}\n```"
+            },
+            {
+                "final_score": 5,
+                "response": "{\"score\": [8, 5], \"reasoning\": \"The Nintendo gaming console and the turquoise bowl have been moved closer to each other, successfully executing the instruction. However, the console's appearance has significantly altered, indicating moderate overediting.\"}"
+            },
+            {
+                "final_score": 7,
+                "response": "{ \"score\": [8, 7], \"reasoning\": \"The white-yellow mug has been moved significantly further to the right, which aligns with the editing instruction. However, the additional mug introduced changes the original composition more than necessary, hence losing points on overediting.\" }"
+            },
+            {
+                "final_score": 3,
+                "response": "{ \"score\" : [8, 3], \"reasoning\" : \"Four green hats with feathers were successfully removed, achieving the main goal of the edit. However, the overedited background shows noticeable distortions where the hats were, leading to a moderately low recognition of the original image.\" }"
+            },
+            {
+                "final_score": 5,
+                "response": "{\"score\": [5, 5], \"reasoning\": \"The green turtle toy is now altered significantly, resembling a different object rather than being moved down. The action of 'pushing down' is unclear. The edited image maintains the same scene, but the toy is not recognizable, leading to moderate overediting.\"}"
+            },
+            {
+                "final_score": 0,
+                "response": "{\"score\": [0, 0], \"reasoning\": \"The colorful xylophone is not present in the original image, making the editing instruction irrelevant. The images appear different, but the xylophone's absence makes it impossible to evaluate the edit's success.\"}"
+            },
+            {
+                "final_score": 9,
+                "response": "{\"score\": [10, 9], \"reasoning\": \"The round bowl has been successfully turned upside down in the edited image, fulfilling the editing instruction perfectly, thus earning a score of 10 for editing success. The overall scene remains very similar to the original, and only the bowl's orientation has changed, which earns a 9 for minimal overediting.\"}"
+            },
+            {
+                "final_score": 0,
+                "response": "{\"score\": [0, 10], \"reasoning\": \"The black flip-flop sandal was not shifted further right. The edited image looks identical to the original in terms of the position of the black flip-flop.\"}"
+            },
+            {
+                "final_score": 4,
+                "response": "{\"score\": [5, 4], \"reasoning\": \"The light-gray tape has been edited to appear smaller in the second image, but its color and appearance have drastically changed, affecting recognition. Overediting score is moderate due to color change and shadow inconsistency.\"}"
+            },
+            {
+                "final_score": 2,
+                "response": "{\"score\" : [10, 2], \"reasoning\" : \"The white-black shoes were successfully moved further to the right in the edited image, achieving the editing instruction perfectly. However, significant overediting occurred as the context and other elements of the image were altered noticeably.\"}"
+            },
+            {
+                "final_score": 9,
+                "response": "{\"score\": [10, 9], \"reasoning\": \"The soccer cleats and shoes have been successfully moved closer together. The overall scene remains almost identical aside from the movement of the items, indicating minimal overediting.\"}"
+            },
+            {
+                "final_score": 6,
+                "response": "{ \"score\" : [6, 6], \"reasoning\" : \"The unicorn in the edited image appears to have been rotated, fulfilling the instruction partially, but the color change to blue indicates some overediting. The overall scene remains mostly unchanged.\" }"
+            },
+            {
+                "final_score": 0,
+                "response": "{ \"score\" : [0, 0], \"reasoning\" : \"The brown straw hat is no longer present in the edited image as intended by the instruction to make it smaller; instead, it's replaced by a distorted and unrecognizable patch. This indicates a failure in executing the size reduction effectively. Consequently, overediting is apparent, as the scene changed by removing the key object.\"}"
+            },
+            {
+                "final_score": 0,
+                "response": "```python\n{\"score\": [0, 8], \"reasoning\": \"The edited image did not place the hat on the right hand of the Nesquik canister but on the ground. However, the scene retains most original elements with minimal changes.\"}\n```"
+            },
+            {
+                "final_score": 4,
+                "response": "{\"score\" : [6, 4], \"reasoning\" : \"The yellow ballet shoe is placed behind the red scissors, but its position and size are not consistent with the original scene, making it less effective in terms of editing. The overall scene is moderately changed due to the resizing and repositioning of the shoe.\"}"
+            },
+            {
+                "final_score": 9,
+                "response": "{ \"score\" : [10, 9], \"reasoning\" : \"The CARSII is successfully placed to the right of the green-purple pencil case, indicating effective execution of the instruction. Overediting is minimal as the added car blends well with the surroundings with only slight discrepancies, hence maintaining image coherence.\" }"
+            },
+            {
+                "final_score": 0,
+                "response": "{\"score\": [10, 0], \"reasoning\": \"All yellow medicine bottles were successfully removed from the scene, perfectly following the instruction. However, the ground texture has changed significantly, indicating overediting.\"}"
+            },
+            {
+                "final_score": 2,
+                "response": "{\"score\": [2, 8], \"reasoning\": \"The yellow Nesquik canister has been moved closer to the red towel, but it is not on the right hand side. The scene is minimally altered.\"}"
+            },
+            {
+                "final_score": 9,
+                "response": "{\"score\": [9, 9], \"reasoning\": \"The white porcelain ramekin is successfully added to the platform, closely matching the editing instruction. The rest of the scene remains largely unchanged, indicating minimal overediting.\"}"
+            },
+            {
+                "final_score": 9,
+                "response": "{\"score\": [10, 9], \"reasoning\": \"The edited image successfully adds one toy sheep, following the instruction perfectly. The addition is distinct but minimally alters the scene, maintaining coherence with the original image.\"}"
+            },
+            {
+                "final_score": 1,
+                "response": "{\"score\": [1, 8], \"reasoning\": \"The clock is slightly moved but not above the toy squirrel, indicating poor execution of the instruction. The edited image maintains the overall composition, so minimal overediting is present.\"}"
+            },
+            {
+                "final_score": 10,
+                "response": "```python\n{\"score\": [10, 10], \"reasoning\": \"The white drug bottle in the edited image is flipped upside down as instructed. The rest of the scene remains unchanged, indicating minimal yet effective editing.\"}\n```"
+            },
+            {
+                "final_score": 0,
+                "response": "{ \"score\" : [0, 10], \"reasoning\" : \"The black DVD is not present in the original image, so the editing instruction cannot be evaluated. The edited image retains all other elements without alteration, indicating no overediting.\"}"
+            },
+            {
+                "final_score": 2,
+                "response": "{ \"score\": [3, 2], \"reasoning\": \"The teenage mutant ninja turtle figure is not dropped but elevated. The setting and context have changed significantly from the original image, indicating overediting.\"}"
+            },
+            {
+                "final_score": 9,
+                "response": "{ \"score\": [10, 9], \"reasoning\": \"The bowl has been flipped upside down effectively, following the editing instruction. The overall scene remains consistent with minimal changes other than the necessary edit.\" }"
+            },
+            {
+                "final_score": 4,
+                "response": "{\"score\": [4, 8], \"reasoning\": \"The pencil case in the edited image shows a change in color but lacks the varied colors expected from 'colorful.' The minimal edit maintains the original scene's integrity, but fails to fully execute the instruction.\"}"
+            },
+            {
+                "final_score": 5,
+                "response": "```python\n{\"score\" : [5, 5], \"reasoning\" : \"The red towel is present in both images, indicating some confusion in the instruction or the AI's execution. In the edited image, the towel appears distorted and over-integrated, unnecessarily altering the overall composition.\"}\n```"
+            },
+            {
+                "final_score": 0,
+                "response": "{\"score\": [0, 0], \"reasoning\": \"The editing instruction to swap positions of both items was not executed. The laptop remains in the same position. The addition of a phone instead of swapping positions constitutes a failure in following the instructions. The edited image is not a minimal edit of the original.\"}"
+            },
+            {
+                "final_score": 5,
+                "response": "{\"score\": [5, 7], \"reasoning\": \"The white-red plate has been edited to have a new design, placed behind the white-blue basket. However, the plate design now shows a different color, which doesn't follow the instruction perfectly. The overall scene is mildly changed, retaining most of the original context.\"}"
+            },
+            {
+                "final_score": 0,
+                "response": "{\"score\": [0, 5], \"reasoning\": \"The objects were not swapped; the original second object was replaced. Minimal changes were made to other elements.\"}"
+            },
+            {
+                "final_score": 5,
+                "response": "```python\n{\"score\": [8, 5], \"reasoning\": \"The edited image successfully added a white keyboard to the scene, matching the editing instruction. However, additional elements such as a mouse were also added, leading to moderate overediting.\"}\n```"
+            },
+            {
+                "final_score": 2,
+                "response": "{\"score\": [3, 2], \"reasoning\": \"The edited image contains two white objects, but they are not clearly square saucers. They look more like bowls or rounded dishes. The scene is noticeably different due to the replacement of the original items, indicating significant overediting.\"}"
+            },
+            {
+                "final_score": 0,
+                "response": "{ \"score\": [0, 9], \"reasoning\": \"The black and yellow hammer was not moved to the right as instructed. The second image retains the overall composition with minimal changes, hence high score for minimal overediting.\"}"
+            },
+            {
+                "final_score": 0,
+                "response": "{\"score\": [0, 10], \"reasoning\": \"The red flower pot is not shifted further right in the edited image. Both images are almost identical in terms of the red flower pot's position, showing no overediting.\"}"
+            },
+            {
+                "final_score": 0,
+                "response": "```python\n{\"score\": [0, 0], \"reasoning\": \"The dinosaur has been removed, and the airplane has been altered instead. The edit does not follow the instruction, resulting in overediting with no correct implementation of the task.\"}\n```"
+            },
+            {
+                "final_score": 5,
+                "response": "{ \"score\" : [5, 8], \"reasoning\" : \"The unicorn has been added to the image, but it is not clearly placed behind the cars. The unicorn looks like it has been inserted over the top, so the edit is only partially successful. The scene retains most of its original components, so minimal overediting occurred.\"}"
+            },
+            {
+                "final_score": 0,
+                "response": "{ \"score\" : [0, 10], \"reasoning\" : \"The Teenage Mutant Ninja Turtle figure has not been shifted further left. The images appear identical with regard to the figure's position. There is no sign of overediting as no effective change has taken place.\"}"
+            },
+            {
+                "final_score": 8,
+                "response": "{\"score\": [8, 8], \"reasoning\": \"The white porcelain ramekin has been moved to the right of the shoe as instructed, indicating successful editing. The positioning and scale are slightly altered, affecting the degree of overediting.\"}"
+            },
+            {
+                "final_score": 5,
+                "response": "```python\n{\"score\": [6, 5], \"reasoning\": \"The edited image successfully added one more boot, though it is a different style and noticeably distinct. The degree of overediting is moderate as the new boot stands out in style and appearance from the original ones.\"}\n```"
+            },
+            {
+                "final_score": 0,
+                "response": "```python\n{\"score\": [0, 10], \"reasoning\": \"The white keyboard was not changed to black. No overediting occurred since the keyboard remains unchanged and the rest of the image is the same.\"}\n```"
+            },
+            {
+                "final_score": 8,
+                "response": "```python\n{\"score\": [8, 8], \"reasoning\": \"The yellow soccer cleat has been shifted above the white bowl as instructed. The image retains its original elements and style, indicating moderate overediting but effective execution of the instruction.\"}\n```"
+            },
+            {
+                "final_score": 5,
+                "response": "{\"score\" : [5, 7], \"reasoning\" : \"The positions have changed, but the white DVD has not been placed properly, leading to incomplete execution. The edited image maintains a similar scene structure, indicating minimal overediting.\"}"
+            },
+            {
+                "final_score": 0,
+                "response": "```python\n{\"score\": [0, 10], \"reasoning\": \"The editing instruction to make the blue-white shoes bigger was not executed. The shoes remain the same size, indicating no change from the original to the edited image. Therefore, the editing success score is 0. The degree of overediting score is 10, as there is no noticeable alteration impacting the scene as a whole.\"}\n```"
+            },
+            {
+                "final_score": 6,
+                "response": "{ \"score\": [9, 6], \"reasoning\": \"The two sharks have been successfully removed, fulfilling the editing instruction. However, the area where the sharks were removed shows noticeable patchwork, slightly altering the scene.\"}"
+            },
+            {
+                "final_score": 9,
+                "response": "{\"score\": [9, 9], \"reasoning\": \"The yellow-orange shoe has been flipped upside down successfully, following the editing instruction. The rest of the scene remains largely unchanged, indicating minimal overediting.\"}"
+            },
+            {
+                "final_score": 10,
+                "response": "```python\n{\"score\": [10, 10], \"reasoning\": \"The blue shoe was successfully turned into a white running shoe and the rest of the image remained consistent, minimizing overediting.\"}\n```"
+            },
+            {
+                "final_score": 9,
+                "response": "{\"score\": [9, 9], \"reasoning\": \"The pencil case was successfully turned 90 degrees. The overall scene remains consistent with minimal changes aside from the editing instruction.\"}"
+            },
+            {
+                "final_score": 0,
+                "response": "```json\n{\"score\": [0, 0], \"reasoning\": \"All the magnifying glasses have been removed instead of just one. The scene is completely different from the original.\"}\n```"
+            },
+            {
+                "final_score": 5,
+                "response": "{ \"score\" : [5, 7], \"reasoning\" : \"The high heel's color has been partially converted to red, but some of the golden-black pattern remains. The shape and position of the shoe are largely unchanged, indicating minimal overediting.\"}"
+            },
+            {
+                "final_score": 0,
+                "response": "```python\n{\"score\": [0, 0], \"reasoning\": \"The red scissors in the original image were replaced by different red scissors on the right side, which doesn't follow the instruction. The scene is significantly altered, indicating overediting.\"}\n```"
+            }
+        ],
+        "#gpt4o_valid": 50
+    },
+    "all": {
+        "L1": 0.10420466378901995,
+        "CLIP_I": 0.8809526531446364,
+        "CLIP_T": 0.2865528922167517,
+        "DINO": 0.8031620668067087,
+        "#sample": 248,
+        "GPT4o": 3.1504065040650406
+    }
+}
