@@ -77,13 +77,13 @@ if not st.session_state.intro_shown:
     
     col0, col1, col2, col3 = st.columns(4)
     with col0:
-        st.image("sample_images/positive.jpg", caption="✅ Follows instruction well, realistic, and not over-edited)", use_container_width=True)
+        st.image("sample_images/positive.png", caption="✅ Follows instruction well, realistic, and not over-edited)", use_container_width=True)
     with col1:
-        st.image("sample_images/negative-donotedit.jpg", caption="❌ Instruction Not Followed\n(e.g., model simply copies the input as output or fails to follow the instruction.)", use_container_width=True)
+        st.image("sample_images/negative-donotedit.png", caption="❌ Instruction Not Followed\n(e.g., model simply copies the input as output or fails to follow the instruction.)", use_container_width=True)
     with col2:
-        st.image("sample_images/negative-overedit.jpg", caption="❌ Over-edited\n(e.g., too many changes, model add an additional people into the scene.)", use_container_width=True)
+        st.image("sample_images/negative-overedit.png", caption="❌ Over-edited\n(e.g., too many changes, model add an additional people into the scene.)", use_container_width=True)
     with col3:
-        st.image("sample_images/negative-unrealistic.jpg", caption="❌ Unrealistic\n(e.g., distorted lighting and model fails to produce the output according to the input.)", use_container_width=True)
+        st.image("sample_images/negative-unrealistic.png", caption="❌ Unrealistic\n(e.g., distorted lighting and model fails to produce the output according to the input.)", use_container_width=True)
 
     st.markdown("""
     ---
