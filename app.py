@@ -42,7 +42,7 @@ def upload_to_github(file_path, commit_message):
 MODELS = ["pixinstruct", "got", "chameleon-sft", "chameleon-unsup-sft", "SmartEdit-7B"]
 OUTPUT_DIR = "outputs"
 # EVAL_INDICES = [i for i in range(21,30)] + [i for i in range(71,80)] + [i for i in range(121,130)] + [i for i in range(221,230)] + [i for i in range(371,380)]
-EVAL_INDICES = [0, 50, 100, 200]
+EVAL_INDICES = [0, 1, 50, 51, 52, 100, 101, 102, 200, 350]
 
 TEST_JSON = "test.json"
 OUTPUT_PATH = "results"
@@ -138,7 +138,14 @@ if i >= len(EVAL_INDICES):
     os.makedirs(OUTPUT_PATH, exist_ok=True)
     filename = f"{OUTPUT_PATH}/annotations_{st.session_state.user_id}_{datetime.now().strftime('%Y%m%d_%H%M%S')}.csv"
     df.to_csv(filename, index=False)
-    st.write("Your annotations have been saved as:", filename)
+
+    # Upload to GitHub
+    remote_filename = f"results/{os.path.basename(filename)}"
+    commit_message = f"Add annotation file: {remote_filename}"
+    upload_to_github(remote_filename, commit_message)
+
+    st.write("Your annotations have been saved locally and pushed to GitHub:")
+    st.code(remote_filename)
     st.stop()
 
 # ========== DISPLAY SAMPLE ==========
@@ -248,18 +255,12 @@ if st.button("Submit Evaluation"):
     st.rerun()
 
 # ========== RETURN TO PREVIOUS ==========
-if i >= len(EVAL_INDICES):
-    st.success("You have completed all evaluations. Thank you!")
-    df = pd.DataFrame(st.session_state.annotations)
-    os.makedirs(OUTPUT_PATH, exist_ok=True)
-    filename = f"{OUTPUT_PATH}/annotations_{st.session_state.user_id}_{datetime.now().strftime('%Y%m%d_%H%M%S')}.csv"
-    df.to_csv(filename, index=False)
-
-    # Upload to GitHub
-    remote_filename = f"results/{os.path.basename(filename)}"
-    commit_message = f"Add annotation file: {remote_filename}"
-    upload_to_github(remote_filename, commit_message)
-
-    st.write("Your annotations have been saved locally and pushed to GitHub:")
-    st.code(remote_filename)
-    st.stop()
+if st.session_state.index > 0:
+    if st.button("← Return to Previous Sample"):
+        prev_index = st.session_state.index - 1
+        st.session_state.index = prev_index
+        st.session_state.annotations = [
+            r for r in st.session_state.annotations if r["sample_index"] != EVAL_INDICES[prev_index]
+        ]
+        st.experimental_set_query_params()
+        st.rerun()
