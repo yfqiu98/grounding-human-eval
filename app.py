@@ -52,32 +52,44 @@ if not st.session_state.intro_shown:
     - ✅ **The best** output — the one that best follows the instruction, is realistic, and not over-edited.
     - ❌ **The worst** output — the one that least satisfies the instruction or looks least natural.
 
-    **You will not score individual criteria separately**, but you should **keep these 3 aspects in mind:**
+    **TLDR: in any case, you should consider yourself as an user of a generative image editing system, and give your judgement based on your overall preference.**
+    
+    You should evaluate the systems according to three criterias,
 
     ---
 
-    ### 🔧 Instruction Followed
-    - Good: The edit reflects the instruction clearly (e.g., "add a tree" results in a tree in the scene).
-    - Bad: The edit misses the point or changes something irrelevant.
+    ### 🔧 Criteria 1: Instruction Followed
+    - **Good**: The edit reflects the instruction clearly (e.g., "add a tree" results in a tree in the scene).
+    - **Bad**: The edit misses the point or changes something irrelevant.
 
-    ### 🎭 Realism
-    - Good: The image looks like a real photo with natural textures and lighting.
-    - Bad: Artifacts, distortions, or uncanny results.
+    ### 🎭 Criteria 2: Realism
+    - **Good**: The image looks like a real photo with natural textures and lighting.
+    - **Bad**: Artifacts, distortions, or uncanny results.
 
-    ### 🎨 Over-editing
-    - Good: The edit is focused and minimal, only changing what’s asked.
-    - Bad: The whole image looks unnaturally altered or cluttered.
+    ### 🎨 Criteria 3: Over-editing
+    - **Good**: The edit is focused and minimal, only changing what’s asked.
+    - **Bad**: The whole image looks unnaturally altered or cluttered.
 
     ---
-
-    **Example**:
-    > ✏️ Instruction: *"Make it look like winter."*  
-    > - Good: Snow is added, lighting becomes cooler, background reflects winter.  
-    > - Bad: Random snowflakes without adjusting trees or lighting, or image looks cartoonish.
-
-    When you're ready, click the button below to begin evaluation.
-
     """)
+    st.markdown("### Example instruction: make her turn left")
+    st.image("sample_images/input.jpg", use_container_width=True)
+    
+    col0, col1, col2, col3 = st.columns(4)
+    with col0:
+        st.image("sample_images/positive.jpg", caption="✅ Follows instruction well, realistic, and not over-edited)", use_container_width=True)
+    with col1:
+        st.image("sample_images/negative-donotedit.jpg", caption="❌ Instruction Not Followed\n(e.g., model simply copies the input as output or fails to follow the instruction.)", use_container_width=True)
+    with col2:
+        st.image("sample_images/negative-overedit.jpg", caption="❌ Over-edited\n(e.g., too many changes, model add an additional people into the scene.)", use_container_width=True)
+    with col3:
+        st.image("sample_images/negative-unrealistic.jpg", caption="❌ Unrealistic\n(e.g., distorted lighting and model fails to produce the output according to the input.)", use_container_width=True)
+
+    st.markdown("""
+    ---
+    When you're ready, click below to start evaluating. You can always return to a previous sample to modify your response.
+    """)
+
 
     if st.button("Start Evaluation"):
         st.session_state.intro_shown = True
