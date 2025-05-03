@@ -39,10 +39,10 @@ def upload_to_github(file_path, commit_message):
         st.error(f"❌ GitHub upload failed: {r.status_code} {r.text}")
 
 # ========== CONFIG ==========
-MODELS = ["pixinstruct", "got", "chameleon-sft", "chameleon-unsup-sft", "SmartEdit-7B"]
+MODELS = ["got", "chameleon-sft", "chameleon-unsup-sft", "SmartEdit-7B"]
 OUTPUT_DIR = "outputs"
 # EVAL_INDICES = [i for i in range(21,30)] + [i for i in range(71,80)] + [i for i in range(121,130)] + [i for i in range(221,230)] + [i for i in range(371,380)]
-EVAL_INDICES = [30, 31, 80, 81, 82, 130, 131, 132, 230, 380]
+EVAL_INDICES = [0, 4, 50, 51, 52, 100, 101, 102, 200, 380]
 
 TEST_JSON = "test.json"
 OUTPUT_PATH = "results"
