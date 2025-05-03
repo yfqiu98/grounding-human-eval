@@ -5,6 +5,39 @@ import streamlit as st
 import pandas as pd
 from datetime import datetime
 
+import base64
+import requests
+
+def upload_to_github(file_path, commit_message):
+    token = st.secrets["github"]["token"]
+    repo = st.secrets["github"]["repo"]
+    api_url = f"https://api.github.com/repos/{repo}/contents/{file_path}"
+
+    with open(file_path, "rb") as f:
+        content = base64.b64encode(f.read()).decode()
+
+    headers = {
+        "Authorization": f"token {token}",
+        "Accept": "application/vnd.github.v3+json"
+    }
+
+    data = {
+        "message": commit_message,
+        "content": content
+    }
+
+    # check if file already exists
+    r = requests.get(api_url, headers=headers)
+    if r.status_code == 200:
+        sha = r.json()["sha"]
+        data["sha"] = sha
+
+    r = requests.put(api_url, headers=headers, json=data)
+    if r.status_code in [200, 201]:
+        st.success("✅ File successfully uploaded to GitHub.")
+    else:
+        st.error(f"❌ GitHub upload failed: {r.status_code} {r.text}")
+
 # ========== CONFIG ==========
 MODELS = ["pixinstruct", "got", "chameleon-sft", "chameleon-unsup-sft", "SmartEdit-7B"]
 OUTPUT_DIR = "outputs"
@@ -215,12 +248,18 @@ if st.button("Submit Evaluation"):
     st.rerun()
 
 # ========== RETURN TO PREVIOUS ==========
-if st.session_state.index > 0:
-    if st.button("← Return to Previous Sample"):
-        prev_index = st.session_state.index - 1
-        st.session_state.index = prev_index
-        st.session_state.annotations = [
-            r for r in st.session_state.annotations if r["sample_index"] != EVAL_INDICES[prev_index]
-        ]
-        st.experimental_set_query_params()
-        st.rerun()
+if i >= len(EVAL_INDICES):
+    st.success("You have completed all evaluations. Thank you!")
+    df = pd.DataFrame(st.session_state.annotations)
+    os.makedirs(OUTPUT_PATH, exist_ok=True)
+    filename = f"{OUTPUT_PATH}/annotations_{st.session_state.user_id}_{datetime.now().strftime('%Y%m%d_%H%M%S')}.csv"
+    df.to_csv(filename, index=False)
+
+    # Upload to GitHub
+    remote_filename = f"results/{os.path.basename(filename)}"
+    commit_message = f"Add annotation file: {remote_filename}"
+    upload_to_github(remote_filename, commit_message)
+
+    st.write("Your annotations have been saved locally and pushed to GitHub:")
+    st.code(remote_filename)
+    st.stop()
