@@ -73,7 +73,7 @@ if not st.session_state.intro_shown:
     ---
     """)
     st.markdown("### Example instruction: make her turn left")
-    st.image("sample_images/input.jpg", use_container_width=True)
+    st.image("sample_images/input.png", use_container_width=True)
     
     col0, col1, col2, col3 = st.columns(4)
     with col0:
@@ -166,7 +166,7 @@ def best_worst_input(question, sample_index):
     tags = [tag for tag, _, _ in model_display_info]
     tag_to_model = {tag: model for tag, model, _ in model_display_info}
 
-    best_options = ["None of them is the best"] + tags
+    # best_options = ["None of them is the best"] + tags
     # worst_options = ["None of them is the worst"] + tags
     worst_options = tags
 
