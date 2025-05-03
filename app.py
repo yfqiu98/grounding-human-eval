@@ -8,6 +8,10 @@ from datetime import datetime
 import base64
 import requests
 
+import streamlit as st
+GITHUB_TOKEN = st.secrets["GITHUB_TOKEN"]
+GITHUB_REPO = st.secrets["GITHUB_REPO"]
+
 def upload_to_github(file_path, commit_message):
     token = st.secrets["github"]["token"]
     repo = st.secrets["github"]["repo"]
