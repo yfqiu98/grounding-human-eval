@@ -42,7 +42,7 @@ def upload_to_github(file_path, commit_message):
 MODELS = ["pixinstruct", "got", "chameleon-sft", "chameleon-unsup-sft", "SmartEdit-7B"]
 OUTPUT_DIR = "outputs"
 # EVAL_INDICES = [i for i in range(21,30)] + [i for i in range(71,80)] + [i for i in range(121,130)] + [i for i in range(221,230)] + [i for i in range(371,380)]
-EVAL_INDICES = [0, 1, 50, 51, 52, 100, 101, 102, 200, 350]
+EVAL_INDICES = [10, 11, 60, 61, 62, 110, 111, 112, 210, 360]
 
 TEST_JSON = "test.json"
 OUTPUT_PATH = "results"
