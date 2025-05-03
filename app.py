@@ -168,6 +168,7 @@ def best_worst_input(question, sample_index):
 
     # best_options = ["None of them is the best"] + tags
     # worst_options = ["None of them is the worst"] + tags
+    best_options = tags
     worst_options = tags
 
     best_key = f"{question}-best-sample{sample_index}"
