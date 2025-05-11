@@ -41,8 +41,28 @@ def upload_to_github(file_path, commit_message):
 # ========== CONFIG ==========
 MODELS = ["got", "chameleon-sft", "chameleon-unsup-sft", "SmartEdit-7B"]
 OUTPUT_DIR = "outputs"
-EVAL_INDICES = [i for i in range(21,30)] + [i for i in range(71,80)] + [i for i in range(121,130)] + [i for i in range(221,230)] + [i for i in range(371,380)]
 # EVAL_INDICES = [0, 4, 50, 51, 52, 100, 101, 102, 200, 380]
+
+mb_remove_ids = [5, 7, 9, 12, 13, 15, 19, 21, 23, 28, 29, 31, 34, 37]
+ag_remove_ids = [53, 61, 64, 68, 69, 72, 77, 81, 84, 89, 92, 93, 95, 97, 98, 99]
+something_remove_ids = [119, 124, 126, 135, 136, 145, 146, 147, 148, 149]
+kubric_remove_ids = [355, 360, 365, 370, 373, 375, 378, 385, 392]
+
+mb_ids = [i for i in range(0,50) if i not in mb_remove_ids] 
+ag_ids = [i for i in range(50,100) if i not in ag_remove_ids]
+something_ids = [i for i in range(100,150) if i not in something_remove_ids]
+whatsup_ids = [i for i in range(200,250)] 
+kubric_ids = [i for i in range(350,400) if i not in kubric_remove_ids]
+
+import random
+
+selected_mb_ids = random.sample(mb_ids, k=5)
+selected_ag_ids = random.sample(ag_ids, k=5)
+selected_something_ids = random.sample(something_ids, k=5)
+selected_whatsup_ids = random.sample(whatsup_ids, k=5)
+selected_kubric_ids = random.sample(kubric_ids, k=5)
+
+EVAL_INDICES = selected_mb_ids+selected_ag_ids+selected_something_ids+selected_whatsup_ids+selected_kubric_ids
 
 TEST_JSON = "test.json"
 OUTPUT_PATH = "results"
