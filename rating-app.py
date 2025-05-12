@@ -145,7 +145,6 @@ if not st.session_state.intro_shown:
     
     col0, col1, col2, col3 = st.columns(4)
     
-    st.markdown("**Left-to-right candidates are ranked from BEST to WORST.**")
     with col0:
         st.image("sample_images/positive.png", caption="✅ Follows instruction well, realistic, and not over-edited)", use_container_width=True)
     with col1:
@@ -204,7 +203,20 @@ st.markdown(f"<h3 style='color:#333'>Instruction for Editing: {sample['instructi
 st.markdown("**Input Image**")
 st.image(sample['input'], width=300)
 
-st.markdown("#### Anonymous Model Outputs")
+st.markdown(f"#### Image ID: `{sample_index}`")
+
+st.markdown("### Please evaluate each candidate image individually")
+st.markdown("""
+You will see the **input image**, the **instruction**, and **one model's output** at a time.
+
+Rate how well the output satisfies the following three criteria (0–3 scale):
+
+- 🎭 Realism  
+- 🔧 Instruction Followed  
+- 🎨 Minimal Over-Editing  
+""")
+
+rating_scores = {}
 image_filename = f"{sample_index}.png"
 model_display_info = []
 
@@ -212,46 +224,29 @@ for idx, model in enumerate(shuffled_models):
     tag = f"Model {idx+1}"
     img_path = os.path.join(OUTPUT_DIR, model, image_filename)
     model_display_info.append((tag, model, img_path))
+    
+for idx, (tag, model, img_path) in enumerate(model_display_info):
+    st.markdown("---")
+    st.markdown(f"### Candidate {idx+1} ({tag})")
 
-output_cols = st.columns(len(model_display_info))
-for col, (tag, _, img_path) in zip(output_cols, model_display_info):
-    with col:
-        st.image(img_path, caption=tag, use_container_width=True)
+    col_input, col_output = st.columns([1, 1])
 
-        
-# ========== ANNOTATION FORM ==========
-st.markdown("### Rate each candidate from 0 to 3 based on the criteria below:")
+    with col_input:
+        st.markdown("**Input Image**")
+        st.image(sample['input'], use_container_width=True)
 
-rating_criteria = """
-Rate each candidate based on the following 3 criteria, from 0 to 3:
+    with col_output:
+        st.markdown("**Model Output**")
+        st.image(img_path, use_container_width=True)
 
-- **0**: None of the criteria are satisfied  
-- **1**: Only one is satisfied  
-- **2**: Two are satisfied  
-- **3**: All three are satisfied  
-
-Criteria:
-1. 🎭 **Realism**
-2. 🔧 **Instruction Followed**
-3. 🎨 **Minimal Over-Editing**
-"""
-
-st.markdown(rating_criteria)
-
-def rating_input(sample_index):
-    scores = {}
-    for tag, model, _ in model_display_info:
-        widget_key = f"rating-{tag}-sample{sample_index}"
-        score = st.selectbox(
-            f"{tag} (Model)",
-            [0, 1, 2, 3],
-            index=1,
-            key=widget_key
-        )
-        scores[model] = score
-    return scores
-
-rating_scores = rating_input(sample_index)
+    st.markdown(f"**Instruction:** `{sample['instruction']}`")
+    score = st.radio(
+        "How well does this output meet the 3 criteria? (🎭 Realism & 🔧 Instruction & 🎨 Over-Editing)",
+        [0, 1, 2, 3],
+        index=1,
+        key=f"score-radio-{sample_index}-{model}"
+    )
+    rating_scores[model] = score
 
 # ========== SUBMIT ==========
 if st.button("Submit Evaluation"):
@@ -260,7 +255,7 @@ if st.button("Submit Evaluation"):
             "user_id": st.session_state.user_id,
             "sample_index": sample_index,
             "model": model,
-            "4way_score": rating_scores[model],
+            "score": rating_scores[model],
         }
         st.session_state.annotations.append(record)
 
